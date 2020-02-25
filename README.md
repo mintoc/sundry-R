@@ -12,6 +12,6 @@ library(spict)
 source("sp_uncertainty.R")
 data(pol)
 rep <- fit.spict(pol$hake)
-plot_production(rep)
+sp_uncertainty(rep)
 ```
 <img src = "./figures/sp_uncertainty.png" width = 600, class="center">
