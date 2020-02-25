@@ -23,6 +23,7 @@ sp_uncertainty <- function(fit, nsamp = 1e4, nB = 100, plot_it = TRUE, n_fixed =
     ## fit is a spict fit object
     ## nsamp is the number of replicate samples from m, K and possibly n
     ## nB is the number of biomass points to calculate production at
+    ## n_fixed is the value n (shape parameter of Pella-Tomlinson) fixed at if not estimated
     if("logn" %in% names(fit$par.fixed)){
         pars <- c("logm", "logK", "logn")
     }else{
