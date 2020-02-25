@@ -17,7 +17,7 @@ library (spict)
 ## source("sp_uncertainty.R")
 ## data(pol)
 ## rep <- fit.spict(pol$hake)
-## plot_production(rep)
+## sp_uncertainty(rep)
 
 sp_uncertainty <- function(fit, nsamp = 1e4, nB = 100, plot_it = TRUE, n_fixed = NULL){
     ## fit is a spict fit object
