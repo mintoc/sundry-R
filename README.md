@@ -13,4 +13,4 @@ data(pol)
 rep <- fit.spict(pol$hake)
 plot_production(rep)
 ```
-![](figures/sp_uncertainty.png "sp_uncertinty example")
+<img src = "figures/sp_uncertainty.png" width = 200)
